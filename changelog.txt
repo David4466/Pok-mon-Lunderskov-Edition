@@ -1,0 +1,376 @@
+[1.0]
+# Plugin installer released!
+SJPlugins_Settings
+SJPlugins_Updater
+
+# EBS anniversary update
+# Minor changes overall, and some bugfixes
+# Mainly updated to work with the new installer and updater
+EliteBattle_Battle
+EliteBattle_Scene
+EliteBattle_Animations
+EliteBattle_UI
+EliteBattle_BitmapWrappers
+EliteBattle_Sprites
+EliteBattle_EntryAnimations
+EliteBattle_MoveAnimations
+
+# Added to the list of available plugins via the installer
+Resource_UltimateTitleScreen
+Resource_EasyMouseSystem
+Resource_SmartDownload
+Resource_FancyBadges
+Resource_WorldTournament
+Resource_TradeExpert
+
+[1.0.1]
+# Minor addition to the updater for future proofing
+SJPlugins_Updater
+
+[1.0.2]
+# Tweaked the common animations a bit in EBS
+EliteBattle_Animations
+
+[1.0.3]
+# fixed a typo that would cause a crash when playing the stat-up common animation
+EliteBattle_Animations
+
+[1.0.4]
+# added some additional functionality for upcoming interface releases
+SJPlugins_Updater
+
+[1.0.5]
+# small fix to the opposing Trainer's Pokemon sendout animation
+EliteBattle_Scene
+
+[1.0.6]
+# fixed small bug causing the HP bars of the Pokemon going off screen after taking multiple hits
+EliteBattle_Scene
+
+[1.0.7]
+# hopefully fixed the rest of the issues with some EBS UI elements overlapping others
+EliteBattle_Scene
+EliteBattle_EntryAnimations
+# added some more compatibility with PWT
+Resource_WorldTournament
+
+[1.0.8]
+# changes to the way the BAN_LIST gets handled in the PWT
+# you can now set up the banlist to be a hash, to include different kinds of banlist for different tournament bracket
+Resource_WorldTournament
+# Changed the way types get rendered in the Next Gen UI
+EliteBattle_UI
+
+[1.0.9]
+# fixed issues with EBS staying underneath the Debug menu
+EliteBattle_Scene
+EliteBattle_UI
+
+[1.0.10]
+# fixed the title screen script crashing when attempting to delete the save data
+Resource_UltimateTitleScreen
+
+[1.0.11]
+# fixed UI issues in EBS where the databox gets tinted after leveling up for the rest of the battle
+EliteBattle_UI
+[1.1.0]
+# bugfix
+SJPlugins_Updater
+[1.1.1]
+http://pastebin.com/raw/7pYWVmQV,script
+#---------------------------------------------
+# Elite Battle System
+#     Changed the Mega Evolution animation
+#     Added a new Evolution scene
+#     Added a new Egg Hatching scene
+#     Changed the way egg graphics get handled
+#     Added a new S/M styled Trainer VS sequence
+#     Added a special VS sequence for Pokemon Species
+#---------------------------------------------
+EliteBattle_Battle
+EliteBattle_Scene
+EliteBattle_Animations
+EliteBattle_UI
+EliteBattle_Sprites
+EliteBattle_BitmapWrapper
+EliteBattle_EntryAnimations
+# new resources
+http://i.imgur.com/hkJRIeW.png,Graphics/Animations/ebMega001.png
+http://i.imgur.com/RSS3OnB.png,Graphics/Animations/ebMega002.png
+http://i.imgur.com/StjHLKa.png,Graphics/Animations/ebMega003.png
+http://i.imgur.com/1Xf1S0T.png,Graphics/Animations/ebMega004.png
+http://i.imgur.com/NBs0y1Q.png,Graphics/Animations/ebMega005.png
+http://i.imgur.com/Vniy80G.png,Graphics/Animations/ebMega006.png
+http://i.imgur.com/4xCT8k1.png,Graphics/Animations/ebMega007.png
+http://i.imgur.com/7pSzg9c.png,Graphics/Animations/ebMegaBg.png
+http://i.imgur.com/4CgyZMb.png,Graphics/Pictures/impact.png
+http://i.imgur.com/J5B6w65.png,Graphics/Pictures/EBS/evobg.png
+http://i.imgur.com/Zhy9M6d.png,Graphics/Pictures/EBS/hatchbg.png
+http://i.imgur.com/wJOIS2W.png,Graphics/Pictures/EBS/overlay.png
+http://i.imgur.com/jVj21Vl.png,Graphics/Pictures/EBS/line1.png
+http://i.imgur.com/INdMGyI.png,Graphics/Pictures/EBS/line2.png
+http://i.imgur.com/IzoB5Hh.png,Graphics/Pictures/EBS/ray.png
+http://i.imgur.com/5bxxfW9.png,Graphics/Pictures/EBS/shine1.png
+http://i.imgur.com/5dSbnga.png,Graphics/Pictures/EBS/shine2.png
+http://i.imgur.com/qFOlcOt.png,Graphics/Pictures/EBS/shine3.png
+http://i.imgur.com/jXs05l1.png,Graphics/Pictures/EBS/shine4.png
+http://i.imgur.com/Vcc20uP.png,Graphics/Pictures/EBS/shine5.png
+http://i.imgur.com/wwmouCH.png,Graphics/Pictures/EBS/shine6.png
+http://i.imgur.com/eanVTGg.png,Graphics/Pictures/EBS/shine7.png
+http://i.imgur.com/Akrcp5s.png,Graphics/Transitions/smEff1.png
+http://i.imgur.com/q2FDP3h.png,Graphics/Transitions/smEff2.png
+http://i.imgur.com/PZ7QuAI.png,Graphics/Transitions/smEff3.png
+http://i.imgur.com/jKcTM6l.png,Graphics/Transitions/smEffBg.png
+http://i.imgur.com/kwCzHL1.png,Graphics/Transitions/smElite4.png
+http://i.imgur.com/rAWp6FC.png,Graphics/Transitions/smGlow1.png
+http://i.imgur.com/sVucSNC.png,Graphics/Transitions/speciesBg.png
+http://i.imgur.com/Mbw4lo9.png,Graphics/Transitions/speciesEffA.png
+http://i.imgur.com/8M77Kor.png,Graphics/Transitions/speciesEffB.png
+http://i.imgur.com/d5s1Tfu.png,Graphics/Transitions/speciesEffC.png
+http://i.imgur.com/FZthpuX.png,Graphics/Battlers/Eggs/000.png
+http://i.imgur.com/Skn22Jp.png,Graphics/Battlers/Eggs/000cracks.png
+#---------------------------------------------
+# Ultimate Title Screens
+#      Added a new Sun/Moon styled Title Screen
+#---------------------------------------------
+Resource_UltimateTitleScreen
+# new resources
+http://i.imgur.com/hOlGVxW.png,Graphics/Titles/gen_7_bg.png
+http://i.imgur.com/QAocXT3.png,Graphics/Titles/gen_7_bg2.png
+http://i.imgur.com/gPz6AXl.png,Graphics/Titles/gen_7_bg3.png
+http://i.imgur.com/SdyXvNC.png,Graphics/Titles/gen_7_bg4.png
+http://i.imgur.com/QeI3E4m.png,Graphics/Titles/gen_7_c1.png
+http://i.imgur.com/gRSDNVi.png,Graphics/Titles/gen_7_e1.png
+http://i.imgur.com/GLSgp2d.png,Graphics/Titles/gen_7_e2.png
+http://i.imgur.com/2bCqqe3.png,Graphics/Titles/gen_7_e3.png
+http://i.imgur.com/aDfqGrs.png,Graphics/Titles/gen_7_e4.png
+http://i.imgur.com/3A33PWG.png,Graphics/Titles/gen_7_s1.png
+http://i.imgur.com/6MNKvPI.png,Graphics/Titles/gen_7_s2.png
+http://i.imgur.com/5AVbMi8.png,Graphics/Titles/gen_7_s3.png
+http://i.imgur.com/k1SNf8T.png,Graphics/Titles/gen_7_s4.png
+http://i.imgur.com/QTbd7cs.png,Graphics/Titles/gen_7_s5.png
+http://i.imgur.com/ps3FhMq.png,Graphics/Titles/gen_7_s6.png
+http://i.imgur.com/RUQzygn.png,Graphics/Titles/gen_7_s7.png
+http://i.imgur.com/7YUlsK3.png,Graphics/Titles/gen_7_s8.png
+http://i.imgur.com/aSU07hf.png,Graphics/Titles/pokelogo.png
+http://www72.zippyshare.com/d/5TEmfTJy/575730/title_sm.ogg,Audio/BGM/title_sm.ogg
+#----------------------------------------------
+SJPlugins_Updater
+[1.1.2]
+# fixes the issues where player gets stuck after evolution
+EliteBattle_Scene
+[1.1.3]
+# fixed a typo which would cause the special variant of the S/M VS sequence to crash the game
+EliteBattle_EntryAnimations
+[1.1.4]
+# nothing major or game-breaking, just some minor adjustments for some oversights
+EliteBattle_Battle
+[1.1.5]
+# testing out something
+EliteBattle_Battle
+[1.1.6]
+# fixes the issue with the Evolution scene not accounting for forms or shinies
+EliteBattle_Scene
+EliteBattle_Sprites
+[1.2.0]
+# Bugfixes and a new VS sequence
+# Refer to the top part of the EntryAnimations script for usage instructions
+EliteBattle_Battle
+EliteBattle_Scene
+EliteBattle_Sprites
+EliteBattle_EntryAnimations
+http://i.imgur.com/S6dBqBq.png,Graphics/Transitions/smC0.png
+http://i.imgur.com/aNIcG5B.png,Graphics/Transitions/smC1.png
+http://i.imgur.com/EqLnwpB.png,Graphics/Transitions/smC2.png
+http://i.imgur.com/nNIimod.png,Graphics/Transitions/smCParticle.png
+Resource_UltimateTitleScreen
+[1.2.1]
+# fixed double trainer battles crashing
+# attempted to fix the crash in the in-game Animation Editor
+# I still recommend using the Editor.exe for that
+EliteBattle_Battle
+EliteBattle_Animations
+[1.2.2]
+# fixed command menu UI bug
+EliteBattle_UI
+[1.2.3]
+# fixed the gen 5 title screen crashing for some Pokemon forms
+Resource_UltimateTitleScreen
+[1.2.4]
+# accounted for that little "hang" at the end of the attack phase
+EliteBattle_Battle
+[1.3.2]
+#-----------------------------------------------
+# New EBS move animations:
+#  * Metal Claw
+#  * Shadow Ball
+#  * Flash Cannon
+#  * Whirlwind
+#      Further optimized the system
+#      Got rid of the April Fools parts of code
+#      Created a new TrailingSprite class
+#      Party line up shows during switching
+#      New particle effects for shadow Pokemon
+#      New Super-Saiyan mode for Pokemon
+# Woops, fixed accidentally breaking the title screens
+#-----------------------------------------------
+EliteBattle_Battle
+EliteBattle_Scene
+EliteBattle_Animations
+EliteBattle_UI
+EliteBattle_Sprites
+EliteBattle_BitmapWrapper
+EliteBattle_EntryAnimations
+EliteBattle_MoveAnimations
+# new resources
+http://i.imgur.com/ABD5ucW.png,Graphics/Animations/eb175.png
+http://i.imgur.com/bVCqAlf.png,Graphics/Animations/eb175_1.png
+http://i.imgur.com/kWIYYCh.png,Graphics/Animations/eb175_2.png
+http://i.imgur.com/ede5Eal.png,Graphics/Animations/eb175_3.png
+http://i.imgur.com/aFLisoA.png,Graphics/Animations/eb175_4.png
+http://i.imgur.com/C6Mdx2I.png,Graphics/Animations/eb519.png
+http://i.imgur.com/6XscvCo.png,Graphics/Animations/eb519_2.png
+http://i.imgur.com/Za3ibZa.png,Graphics/Animations/eb519_3.png
+http://i.imgur.com/xs3k8As.png,Graphics/Animations/eb519_4.png
+http://i.imgur.com/i3KlAPw.png,Graphics/Animations/eb519_5.png
+http://i.imgur.com/V8PwLZ7.png,Graphics/Animations/eb519_6.png
+http://i.imgur.com/KM2qSkX.png,Graphics/Animations/eb519_7.png
+http://i.imgur.com/9IakYCK.png,Graphics/Animations/eb519_8.png
+http://i.imgur.com/TduDxvC.png,Graphics/Animations/eb519_9.png
+http://i.imgur.com/YRE4fdB.png,Graphics/Animations/eb519_10.png
+http://i.imgur.com/0LymDfE.png,Graphics/Animations/ebShadow.png
+http://i.imgur.com/wYHa7P5.png,Graphics/Animations/ebCharged.png
+http://i.imgur.com/KsfXStb.png,Graphics/Animations/ebRipple.png
+http://i.imgur.com/5lhVl5D.png,Graphics/Animations/eb423.png
+http://www95.zippyshare.com/d/GfkwHaDB/37571/eb_iron5.wav,Audio/SE/eb_iron5.wav
+#-----------------------------------------------
+Resource_UltimateTitleScreen
+http://pastebin.com/raw/7pYWVmQV,script
+SJPlugins_Updater
+[1.3.3]
+# fixed issue with the game getting stuck in continuous error loop when capturing shadow Pokemon
+EliteBattle_Sprites
+[1.3.4]
+# fixed a few more issues with the extra sprite particles
+EliteBattle_Scene
+EliteBattle_Sprites
+[1.3.5]
+http://pastebin.com/raw/7pYWVmQV,script
+# Changed the way battle backgrounds are handled, and added new ones to the mix
+EliteBattle_Scene
+EliteBattle_Sprites
+# new battle backgrounds
+http://i.imgur.com/uVMaiNX.png,Graphics/Battlebacks/battlebg/Cave.png
+http://i.imgur.com/d39hNfe.png,Graphics/Battlebacks/battlebg/CaveDark.png
+http://i.imgur.com/mUPWhdf.png,Graphics/Battlebacks/battlebg/Champion.png
+http://i.imgur.com/yymhKpj.png,Graphics/Battlebacks/battlebg/City.png
+http://i.imgur.com/Ofq9jkd.png,Graphics/Battlebacks/battlebg/EliteA.png
+http://i.imgur.com/FBqUG3o.png,Graphics/Battlebacks/battlebg/EliteB.png
+http://i.imgur.com/8YCvs1E.png,Graphics/Battlebacks/battlebg/EliteC.png
+http://i.imgur.com/TA3r4Em.png,Graphics/Battlebacks/battlebg/EliteD.png
+http://i.imgur.com/XXa5Nau.png,Graphics/Battlebacks/battlebg/Field.png
+http://i.imgur.com/GJk9eb3.png,Graphics/Battlebacks/battlebg/Forest.png
+http://i.imgur.com/jFmrOvL.png,Graphics/Battlebacks/battlebg/IndoorA.png
+http://i.imgur.com/aysE304.png,Graphics/Battlebacks/battlebg/IndoorB.png
+http://i.imgur.com/o84mJmL.png,Graphics/Battlebacks/battlebg/IndoorC.png
+http://i.imgur.com/6twEuz7.png,Graphics/Battlebacks/battlebg/Mountain.png
+http://i.imgur.com/19olKeP.png,Graphics/Battlebacks/battlebg/Snow.png
+http://i.imgur.com/bilIgya.png,Graphics/Battlebacks/battlebg/Underwater.png
+http://i.imgur.com/qfCh1HW.png,Graphics/Battlebacks/battlebg/Water.png
+# new enemy bases
+http://i.imgur.com/KS8hNGj.png,Graphics/Battlebacks/enemybase/Cave.png
+http://i.imgur.com/L3YCTv3.png,Graphics/Battlebacks/enemybase/CaveDark.png
+http://i.imgur.com/AnFSrAy.png,Graphics/Battlebacks/enemybase/CaveDarkWater.png
+http://i.imgur.com/MlcJYjg.png,Graphics/Battlebacks/enemybase/CaveWater.png
+http://i.imgur.com/lsAmcZy.png,Graphics/Battlebacks/enemybase/Champion.png
+http://i.imgur.com/W6qyzHd.png,Graphics/Battlebacks/enemybase/City.png
+http://i.imgur.com/mWKyT9l.png,Graphics/Battlebacks/enemybase/CityConcrete.png
+http://i.imgur.com/ZqB9NR9.png,Graphics/Battlebacks/enemybase/CityDirt.png
+http://i.imgur.com/2tWqYJh.png,Graphics/Battlebacks/enemybase/CityGrass.png
+http://i.imgur.com/FEOqsOq.png,Graphics/Battlebacks/enemybase/CitySand.png
+http://i.imgur.com/o8yhcLF.png,Graphics/Battlebacks/enemybase/CityWater.png
+http://i.imgur.com/cC8NO6f.png,Graphics/Battlebacks/enemybase/EliteA.png
+http://i.imgur.com/tgqxRCU.png,Graphics/Battlebacks/enemybase/EliteB.png
+http://i.imgur.com/w1UUgRZ.png,Graphics/Battlebacks/enemybase/EliteC.png
+http://i.imgur.com/QlFxzrE.png,Graphics/Battlebacks/enemybase/EliteD.png
+http://i.imgur.com/4vZHqtb.png,Graphics/Battlebacks/enemybase/Field.png
+http://i.imgur.com/6QKp4nY.png,Graphics/Battlebacks/enemybase/FieldConcrete.png
+http://i.imgur.com/cGa3Qd2.png,Graphics/Battlebacks/enemybase/FieldDirt.png
+http://i.imgur.com/VDtP955.png,Graphics/Battlebacks/enemybase/FieldGrass.png
+http://i.imgur.com/9o1EemU.png,Graphics/Battlebacks/enemybase/FieldPuddle.png
+http://i.imgur.com/JbJ9wTa.png,Graphics/Battlebacks/enemybase/FieldSand.png
+http://i.imgur.com/jbGIZeN.png,Graphics/Battlebacks/enemybase/FieldWater.png
+http://i.imgur.com/Ptruoeo.png,Graphics/Battlebacks/enemybase/Forest.png
+http://i.imgur.com/weq2YOB.png,Graphics/Battlebacks/enemybase/ForestGrass.png
+http://i.imgur.com/f2w8v5D.png,Graphics/Battlebacks/enemybase/ForestMud.png
+http://i.imgur.com/XjK5m1e.png,Graphics/Battlebacks/enemybase/IndoorA.png
+http://i.imgur.com/sJHZvDb.png,Graphics/Battlebacks/enemybase/IndoorB.png
+http://i.imgur.com/ohTUTgl.png,Graphics/Battlebacks/enemybase/IndoorC.png
+http://i.imgur.com/ByaQzw7.png,Graphics/Battlebacks/enemybase/Mountain.png
+http://i.imgur.com/GR1pqi0.png,Graphics/Battlebacks/enemybase/MountainGrass.png
+http://i.imgur.com/t6DamYa.png,Graphics/Battlebacks/enemybase/Snow.png
+http://i.imgur.com/jdvVz0V.png,Graphics/Battlebacks/enemybase/Underwater.png
+http://i.imgur.com/oheh7Ae.png,Graphics/Battlebacks/enemybase/Water.png
+# new player bases
+http://i.imgur.com/WmNHvZY.png,Graphics/Battlebacks/playerbase/Cave.png
+http://i.imgur.com/d5oO0hl.png,Graphics/Battlebacks/playerbase/CaveDark.png
+http://i.imgur.com/iDhuzWx.png,Graphics/Battlebacks/playerbase/CaveDarkWater.png
+http://i.imgur.com/KOitZpR.png,Graphics/Battlebacks/playerbase/CaveWater.png
+http://i.imgur.com/l1tyTYF.png,Graphics/Battlebacks/playerbase/Champion.png
+http://i.imgur.com/Yb3h4rD.png,Graphics/Battlebacks/playerbase/City.png
+http://i.imgur.com/vxgEMfE.png,Graphics/Battlebacks/playerbase/CityConcrete.png
+http://i.imgur.com/Mqrwuy4.png,Graphics/Battlebacks/playerbase/CityDirt.png
+http://i.imgur.com/vSj3RFb.png,Graphics/Battlebacks/playerbase/CityGrass.png
+http://i.imgur.com/qxo6Lbv.png,Graphics/Battlebacks/playerbase/CitySand.png
+http://i.imgur.com/bSDhDti.png,Graphics/Battlebacks/playerbase/CityWater.png
+http://i.imgur.com/s8FzC6h.png,Graphics/Battlebacks/playerbase/EliteA.png
+http://i.imgur.com/Vn1g5W3.png,Graphics/Battlebacks/playerbase/EliteB.png
+http://i.imgur.com/cvlIEJQ.png,Graphics/Battlebacks/playerbase/EliteC.png
+http://i.imgur.com/a8QaHG3.png,Graphics/Battlebacks/playerbase/EliteD.png
+http://i.imgur.com/9GA4CMg.png,Graphics/Battlebacks/playerbase/Field.png
+http://i.imgur.com/rqLPPlC.png,Graphics/Battlebacks/playerbase/FieldConcrete.png
+http://i.imgur.com/3UzVABy.png,Graphics/Battlebacks/playerbase/FieldDirt.png
+http://i.imgur.com/2HHKa77.png,Graphics/Battlebacks/playerbase/FieldGrass.png
+http://i.imgur.com/KcmV9xX.png,Graphics/Battlebacks/playerbase/FieldPuddle.png
+http://i.imgur.com/sQKkUBp.png,Graphics/Battlebacks/playerbase/FieldSand.png
+http://i.imgur.com/xZs9Q1S.png,Graphics/Battlebacks/playerbase/FieldWater.png
+http://i.imgur.com/m941Pkj.png,Graphics/Battlebacks/playerbase/Forest.png
+http://i.imgur.com/TGmlq8j.png,Graphics/Battlebacks/playerbase/ForestGrass.png
+http://i.imgur.com/xRTC7yp.png,Graphics/Battlebacks/playerbase/ForestMud.png
+http://i.imgur.com/PKu7IPQ.png,Graphics/Battlebacks/playerbase/IndoorA.png
+http://i.imgur.com/46mPzGu.png,Graphics/Battlebacks/playerbase/IndoorB.png
+http://i.imgur.com/x7wtty8.png,Graphics/Battlebacks/playerbase/IndoorC.png
+http://i.imgur.com/NMMYchD.png,Graphics/Battlebacks/playerbase/Mountain.png
+http://i.imgur.com/4lxiK77.png,Graphics/Battlebacks/playerbase/MountainGrass.png
+http://i.imgur.com/FTm60ed.png,Graphics/Battlebacks/playerbase/Snow.png
+http://i.imgur.com/0v2kzqy.png,Graphics/Battlebacks/playerbase/Underwater.png
+http://i.imgur.com/MAJ4JdO.png,Graphics/Battlebacks/playerbase/Water.png
+[1.3.6]
+# fixed the naming mismatch for Groudon's and Kyogre's primal forms
+EliteBattle_UI
+[1.3.7]
+# fixed various incompatibility errors for EBS to make it work with v17 of Essentials
+EliteBattle_Battle
+EliteBattle_Scene
+EliteBattle_Animations
+EliteBattle_UI
+EliteBattle_Sprites
+EliteBattle_BitmapWrapper
+EliteBattle_EntryAnimations
+EliteBattle_MoveAnimations
+[1.3.8]
+# fixed VS sequences not disposing when played in double battles
+EliteBattle_Battle
+EliteBattle_BitmapWrapper
+[1.3.9]
+# fixed the Positioner.exe not actually working with v17 of Essentials
+http://www89.zippyshare.com/d/KBUQdgxi/11258/PositionerScripts.rxdata,Data/PositionerScripts.rxdata
+[1.3.10]
+# fixed various bugs when it comes to UI and other areas
+EliteBattle_Battle
+EliteBattle_Scene
+EliteBattle_Animations
+EliteBattle_UI
+EliteBattle_Sprites
+EliteBattle_BitmapWrapper
+EliteBattle_EntryAnimations
