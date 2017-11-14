@@ -1,4 +1,4 @@
-# FOR THE LOVE OF GOD, DON'T TOUCH THIS SCRIPT SECTIONS
+# FOR THE LOVE OF GOD, DON'T TOUCH THIS SCRIPT SECTION
 # I HAVE NO IDEA WHAT KIND OF MESS YOU COULD INFLICT UPON YOURSELF
 
 # prevent from existing if running in UPI
@@ -292,6 +292,17 @@ module Net
      end
   end
 end
+
+class ::String
+  def blank?
+    blank = true
+    s = self.split("")
+    for l in s
+      blank = false if l != ""
+    end
+    return blank
+  end
+end
 #==============================================================================
 # ** Package Manager
 #------------------------------------------------------------------------------
@@ -388,14 +399,16 @@ module PackageManager
   # returns the latest version of a plugin
   def self.latestVersion?(key)
     master = Downloader.toString(@@package[key]["master"])
-  return self.version?(key) if !master
+    return self.version?(key) if !master
     lines = master.split("\r\n")
     versions = []
     # parses read data
     for i in 0...lines.length
       line = lines[i].split("#")[0]
+	  next if line.nil?
       s = line[/\[.*?\]/]
-      if !s.nil?
+	  if line.blank?
+      elsif !s.nil?
         s.gsub!("[",""); s.gsub!("]","")
         versions.push(s)
       end
