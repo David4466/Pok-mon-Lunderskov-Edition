@@ -1,13 +1,13 @@
 [4.3.4]
 # initial update to configure sprites and metrics
-https://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-Y2k1ZkxtblN4TG8,_installer/bin/internals.dat
-https://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-WlZndDdUTWhQUDA,_installer/bin/metrics.dat
-https://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-X0tGbG9wc2tLWDQ,execute
-https://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-ajVrUnRxQXNVVG8,execute
+http://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-Y2k1ZkxtblN4TG8,_installer/bin/internals.dat
+http://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-WlZndDdUTWhQUDA,_installer/bin/metrics.dat
+http://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-X0tGbG9wc2tLWDQ,execute
+http://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-ajVrUnRxQXNVVG8,execute
 [4.3.5]
 # positioner fix
-https://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-dGhXZ2xYTXVJcjQ,Data/PositionerScripts.rxdata
-https://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-c01MV1I2dFJGazA,EliteBattle_0
+http://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-dGhXZ2xYTXVJcjQ,Data/PositionerScripts.rxdata
+http://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-c01MV1I2dFJGazA,EliteBattle_0
 [4.3.6]
 # S&M VS sequence rework
 # actually I broke this thing
@@ -27,4 +27,4 @@ http://drive.google.com/uc?export=download&id=0B4Pi8i4pFhL-YUZjRXN3eUVsMjA,Elite
 http://drive.google.com/uc?export=download&id=10tUD0DwEi9Zq7nY-o2xlWBJSOljnZOaL,pack
 [4.4.1]
 # forgot to add the whole Graphics/Pictures folder
-https://drive.google.com/uc?export=download&id=1J57LVdhzzgixdD-wi-CKuE0kBu-5Cskk,pack
+http://drive.google.com/uc?export=download&id=1J57LVdhzzgixdD-wi-CKuE0kBu-5Cskk,pack
